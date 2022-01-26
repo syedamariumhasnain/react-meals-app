@@ -2,6 +2,10 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  /* -- Some extra styling to avoid cart being cut off */
+  max-height: 20rem;
+  padding-right: 1rem;
+  overflow-y: scroll;
 }
 
 .total {
