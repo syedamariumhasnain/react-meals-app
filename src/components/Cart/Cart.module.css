@@ -1,11 +1,24 @@
 .cart-items {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 12px;
+  border-radius: 10px;
+  border: #892B06 3px solid;
   /* -- Some extra styling to avoid cart being cut off */
-  max-height: 20rem;
+  max-height: 21rem;
   padding-right: 1rem;
   overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.cart-items::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.cart-items {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 .total {
