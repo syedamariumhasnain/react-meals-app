@@ -9,6 +9,8 @@ const AvailableMeals = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [httpError, setHttpError] = useState(); // initially undefined
 
+  // HTTP REQUEST - WITHOUT USING useHttp hook
+
   // .json is something that is firebase specifice in the url
   // fetch returns a promise, we can add then() and catch() or
   // async / await since, HTTP Request is an asynchronous task
